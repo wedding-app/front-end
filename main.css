@@ -3,7 +3,7 @@
 body {
 	padding-top: 10%;
 	text-align: center;
-	background-color: #16334F;
+	background-color: #FFE3E2;
 }
 
 .weddingFont {
@@ -12,10 +12,10 @@ body {
 
 .title {
 	font-size: 40px;
-	color: #C0CAA2;
+	color: #16334F;
 }
 
 .date {
 	font-size: 20px;
-	color: #FC5252;
+	color: #16334F;
 }
