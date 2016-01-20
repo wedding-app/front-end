@@ -115,6 +115,36 @@ p{
 	font-size: 18px;
 	margin-top: 20px;
 }
+
+@media screen and (min-width: 800px) {
+	.frontContent {
+		position: absolute;
+		width: 80%;
+		left: 5%;
+		top: 5%;
+		padding: 5%;
+		color: #002347;
+	}
+
+	.date {
+		font-size: 35px;
+		color: #EFD9C4;
+		margin-bottom: 30px;
+	}
+
+	.title {
+		font-size: 50px;
+		letter-spacing: 4px;
+		color: #002347;
+		margin-bottom: 30px;
+	}
+
+	.navLink {
+		font-size: 30px;
+	}
+
+}
+
 /*
 
 .gallery {
