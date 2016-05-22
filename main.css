@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 /*
-navy: #002347
+navy: #2A2B59
 cream: #EFD9C4
 pink: #DEB1C1
 gold: #CAA065
@@ -11,10 +11,16 @@ gold: #CAA065
 	font-weight: bold;
 }
 
+@font-face {
+	font-family: Gotham;
+	src: url(gotham.otf);
+	font-weight: bold;
+}
+
 body {
 	padding: 0;
 	margin: 0;
-	font-family: 'Wedding';
+	font-family: 'Gotham';
 	letter-spacing: 1.5px;
 
 }
@@ -28,7 +34,7 @@ body {
 
 .blue {
 	color: #EFD9C4;
-	background-color: #002347;
+	background-color: #2A2B59;
 }
 
 .front {
@@ -36,7 +42,7 @@ body {
 
 .cover {
 	background-image: url("/images/cover.jpg");
-	background-size: cover;	
+	background-size: cover;
 	width: 100%;
 	height: 100%;
 	opacity: 0.7;
@@ -55,7 +61,7 @@ body {
 	left: 5%;
 	top: 10%;
 	padding: 5%;
-	color: #002347;
+	color: #2A2B59;
 }
 
 .navLink {
@@ -65,14 +71,14 @@ body {
 	color: #EFD9C4;
 }
 
-.weddingFont, .pageTitle {
-	font-family: 'Wedding';
+.weddingFont, .pageTitle, .navLink {
+	font-family: Debby;
 }
 
 .title {
 font-size: 5vw;
 letter-spacing: 4px;
-	color: #002347;
+	color: #2A2B59;
 	margin-bottom: 30px;
 }
 
@@ -89,7 +95,7 @@ letter-spacing: 4px;
 }
 
 .inlineLink {
-	color: #DEB1C1;
+	color: #F4CFD0;
 }
 
 p{
@@ -123,7 +129,7 @@ p{
 		left: 5%;
 		top: 5%;
 		padding: 5%;
-		color: #002347;
+		color: #2A2B59;
 	}
 
 	.date {
@@ -135,7 +141,7 @@ p{
 	.title {
 		font-size: 50px;
 		letter-spacing: 4px;
-		color: #002347;
+		color: #2A2B59;
 		margin-bottom: 30px;
 	}
 
