@@ -1,13 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 /*
 navy: #2A2B59
 cream: #EFD9C4
 pink: #DEB1C1
 gold: #CAA065
 */
+
 @font-face {
 	font-family: Debby;
-	src: url(font.ttf);
+	src: url(debby.otf);
 	font-weight: bold;
 }
 
